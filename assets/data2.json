@@ -1,0 +1,103 @@
+{
+  "organization": {
+    "name": "sabbir",
+    "foundedYear": 1995,
+    "departments": [
+      {
+        "departmentId": "d01",
+        "name": "Research and Development",
+        "manager": {
+          "id": "u1001",
+          "name": "Alice Johnson",
+          "email": "alice@techcorp.com",
+          "phone": "+1234567890",
+          "position": "Head of R&D"
+        },
+        "employees": [
+          {
+            "employeeId": "e01",
+            "name": "John Doe",
+            "email": "john.doe@techcorp.com",
+            "position": "Software Engineer",
+            "salary": {
+              "amount": 75000,
+              "currency": "USD",
+              "paySchedule": "monthly"
+            },
+            "contactInfo": {
+              "address": {
+                "street": "123 Main St",
+                "city": "Tech City",
+                "state": "CA",
+                "postalCode": "90210"
+              },
+              "phone": "+1234567890",
+              "emergencyContact": {
+                "name": "Jane Doe",
+                "relationship": "Spouse",
+                "phone": "+10987654321"
+              }
+            },
+            "projects": [
+              {
+                "projectId": "p01",
+                "name": "AI Research",
+                "description": "Developing AI models for automation",
+                "tasks": [
+                  {
+                    "taskId": "t01",
+                    "description": "Build neural network models",
+                    "assignedTo": "John Doe",
+                    "status": "In Progress",
+                    "deadline": "2024-12-01"
+                  },
+                  {
+                    "taskId": "t02",
+                    "description": "Prepare AI model performance report",
+                    "assignedTo": "John Doe",
+                    "status": "Pending",
+                    "deadline": "2024-12-15"
+                  }
+                ]
+              }
+            ],
+            "joiningDate": "2021-06-15",
+            "healthDetails": {
+              "bloodGroup": "O+",
+              "knownConditions": ["Hypertension"]
+            }
+          }
+        ]
+      },
+      {
+        "departmentId": "d02",
+        "name": "Human Resources",
+        "manager": {
+          "id": "u1002",
+          "name": "Bob Smith",
+          "email": "bob.smith@techcorp.com",
+          "phone": "+1234567891",
+          "position": "Head of HR"
+        },
+        "employees": [
+          {
+            "employeeId": "e02",
+            "name": "Sarah Lee",
+            "email": "sarah.lee@techcorp.com",
+            "position": "HR Manager",
+            "salary": {
+              "amount": 68000,
+              "currency": "USD",
+              "paySchedule": "monthly"
+            },
+            "joiningDate": "2020-09-10",
+            "healthDetails": {
+              "bloodGroup": "A-",
+              "knownConditions": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
